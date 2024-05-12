@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio Website</title>
+    <style>
+      /* Add your CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      
+      main {
+        padding: 2rem;
+      }
+      
+      h1 {
+        margin: 0 0 1rem 0;
+      }
+      
+      p {
+        margin: 0;
+      }
+      
+      .project {
+        margin-bottom: 2rem;
+      }
+      
+      .project img {
+        max-width: 100%;
+      }
+      
+      .project h2 {
+        margin: 1rem 0 0.5rem 0;
+      }
+      
+      .project p {
+        margin: 0.5rem 0 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Your Name</h1>
+      <p>Web Developer | Machine Learning Engineer | Data Scientist</p>
+    </header>
+    <main>
+      <section class="project">
+        <img src="path/to/your/project/image.jpg" alt="Project Name" />
+        <h2>Project Name</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget
+          ligula vitae nisi tincidunt dapibus.
+        </p>
+        <p>
+          <a href="path/to/your/project/url">View Project</a>
+        </p>
+      </section>
+      <!-- Add more projects here -->
+    </main>
+  </body>
+</html>
